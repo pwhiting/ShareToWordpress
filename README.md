@@ -25,3 +25,14 @@ limited bandwidth. We may write a blog entry with no bandwidth using the wordpre
 offline, and then when we get bandwidth finalize the post and attach pictures. This just
 makes that process a bit more easy. If you have a laptop or plenty of bandwidth, you 
 might be better served by just accessing wordpress from chrome.
+
+Information on the necessary shortcodes:
+
+See Gupta's answer: https://stackoverflow.com/questions/42479022/wordpress-simple-image-shortcode 
+The code assumes a shortcode with similar syntax has been loaded for image references: 
+[img link="http://yoururl"]
+It grabs the link to your photo using logic similar to that described here:
+https://medium.com/@ValentinHervieu/how-i-used-google-photos-to-host-my-website-pictures-gallery-d49f037c8e3
+The other shortcode comes from Pavex's embed google photos album plugin. Information on it 
+can be found here:
+https://www.publicalbum.org/blog/wordpress-google-photos-album-plugin
